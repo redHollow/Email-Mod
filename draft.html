@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/navigation.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/tooplate.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="sisyphus.js"></script>
+<script>
+$( function() {
+$( "#form2" ).sisyphus(); //Autosave form2 only,
+// or you can persist all forms data at one command
+// $( "form" ).sisyphus();
+} );
+</script>
+</head>
+<!-- Header Menu of the Page -->
+<header>
+    <ul>
+    
+      <li><a href="draft.html">Drafts</a></li>
+      <li><a href="email.html"><strike>Inbox</strike></a></li>
+      <li><a href="b_email.php">Bulk</a></li>
+      <li><a href="search-form.php">Search</a></li>
+      <li><a href="email.html"><strike>Sent</strike></a></li>
+      <li><a href="email.php">EMAIL</a></li>
+      <li><a href="homepage.php"> Homepage</a></li> 
+  
+      
+    </ul>
+    
+  </header>
+  
+<body>
+
+<p style="color:white;">
+    Write your drafts here
+</p>
+
+<div class="form-outline mb-4">
+<form action="" id="form2" name="form2" method="post">
+
+        <textarea class="form-control" id="textAreaExample6" rows="3"></textarea>
+      </div>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</div>
+</div>
+ 
+</body>
+</html>
